@@ -4,8 +4,6 @@ A modern, responsive web application for setting, tracking, and achieving your y
 
 ![Go Goals](https://h3manth.com/fun/goals)
 
-![](./goals.mp4)
-
 ## Features
 
 - 🎯 Create and manage personal goals across multiple categories
@@ -40,20 +38,20 @@ A modern, responsive web application for setting, tracking, and achieving your y
 ## Getting Started
 
 1. Clone the repository:
-\```bash
+```bash
 git clone https://github.com/hemanth/goals.git
 cd goals
-\```
+```
 
 1. Install dependencies:
-\```bash
+```bash
 npm install
-\```
+```
 
 1. Start the development server:
-\```bash
+```bash
 npm run dev
-\```
+```
 
 1. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -63,7 +61,7 @@ To enable cloud synchronization:
 
 1. Create a Supabase project at [supabase.com](https://supabase.com)
 2. Create a new table called \`goals\` with the following schema:
-\```sql
+```sql
 create table goals (
   id uuid primary key,
   title text not null,
@@ -74,7 +72,7 @@ create table goals (
   created_at timestamp with time zone default timezone('utc'::text, now()),
   updated_at timestamp with time zone default timezone('utc'::text, now())
 );
-\```
+```
 3. Configure your Supabase credentials in the app settings
 
 ## Key Features Explained
