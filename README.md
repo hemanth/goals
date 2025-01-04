@@ -4,9 +4,7 @@ A modern, responsive web application for setting, tracking, and achieving your y
 
 [Go Goals](https://h3manth.com/fun/goals)
 
-
-https://github.com/user-attachments/assets/7c145cdd-22fb-4d65-a7b2-87e86988eb76
-
+<video src="https://github.com/user-attachments/assets/7c145cdd-22fb-4d65-a7b2-87e86988eb76" width="352" height="720"></video>
 
 ## Features
 
